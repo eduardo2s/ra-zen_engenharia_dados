@@ -28,7 +28,11 @@ Data should be stored in the following format:
 
 ## How to execute it
 `git clone https://github.com/eduardo2s/raizen_engenharia_dados`
+
 `cd airflow-docker`
+
 `docker-compose build`
+
 `docker-compose up -d`
+
 `access on browser http://localhost:8080`
