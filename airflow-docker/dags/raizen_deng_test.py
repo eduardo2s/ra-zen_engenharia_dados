@@ -6,9 +6,6 @@ from subprocess import  Popen
 from os import makedirs, path, listdir
 import urllib
 import pandas as pd
-import subprocess
-import requests
-import logging
 import pyarrow
 
 def download_store_file(xls_dir):
