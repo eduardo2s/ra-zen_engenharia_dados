@@ -6,9 +6,7 @@ USER root
 
 # Install dependencies and tools
 RUN apt-get update && apt-get install -y \
-    && apt-get install libreoffice -y \
-    && apt-get install -y locales \
-    && localedef -i pt_BR -f UTF-8 pt_BR.UTF-8 
+    && apt-get install libreoffice -y 
 
 USER airflow
 RUN pip install --upgrade pip && \
